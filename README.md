@@ -23,3 +23,9 @@ eb init
 eb create flask-env
 
 eb open
+
+eb list
+
+eb status flask-env
+
+CNAME represents the URL to open the application...
