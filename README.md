@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 
 python3 application.py
 
-# install awscli
+# install aws elastic bean cli
 
 sudo apt install python3.7
 
