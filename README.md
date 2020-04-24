@@ -15,6 +15,20 @@ pip3 install -r requirements.txt
 
 python3 application.py
 
+# install awscli
+
+sudo apt install python3.7
+
+python3 --version
+
+curl -O https://bootstrap.pypa.io/get-pip.py
+
+python3 get-pip.py --user
+
+pip3 --version
+
+pip3 install awsebcli --upgrade --user
+
 # deploy in aws elastic bean stalk
 eb init -p python-3.6 flask-tutorial --region us-east-1
 
