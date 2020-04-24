@@ -43,3 +43,6 @@ eb list
 eb status flask-env
 
 CNAME represents the URL to open the application...
+
+# cleanup aws beanstalk environment and resources
+eb terminate flask-env
